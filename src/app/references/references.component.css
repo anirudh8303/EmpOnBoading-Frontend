@@ -4,7 +4,7 @@
 .heading1 {
   color: black;
   font-weight: bold;
-  background-color: rgb(201, 199, 199);
+  background-color: #e3e3e3;
 }
 
 .btncontrol {
@@ -22,7 +22,7 @@
   border-color: #44a3df;
 }
 
-.line-left {
+/* .line-left {
   width: 3%;
   border-color: #44a3df !important;
 }
@@ -37,4 +37,4 @@
 .line-right {
   width: 88%;
   border-color: #44a3df !important;
-}
+} */
