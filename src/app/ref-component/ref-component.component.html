@@ -1,0 +1,46 @@
+<form action="" [formGroup]="contactForm">
+  <div class="form-row">
+    <div class="row">
+      <div class="col-4  form-floating mb-3 mt-2">
+        <input type="text" class="form-control reference-input form-control-sm" id="name" name="name" formControlName="name" placeholder="Name"/>
+        <label for="name" class="text-secondary">Name<span class="text-danger">*</span></label>
+        <div class="div1 text-danger" *ngIf="!name?.valid && (name?.dirty ||name?.touched)">
+          Enter a Valid Name
+        </div>
+      </div>
+      <div class="col-4  form-floating mb-3 mt-2">
+        <input type="text" class="form-control reference-input form-control-sm" id="desg" name="desg" placeholder="Designation" formControlName="desg"/>
+        <label for="desg" class="text-secondary">Designation<span class="text-danger">*</span></label>
+        <div class="div1 text-danger" *ngIf="!desg?.valid && (desg?.dirty ||desg?.touched)">
+          Enter Designation
+        </div>
+      </div>
+      <div class="col-4 form-floating mb-3 mt-2">
+        <input type="text" class="form-control reference-input" id="company" name="company" placeholder="Company" formControlName="company" />
+        <label for="company" class="text-secondary">Company <span class="text-danger">*</span></label>
+        <div class="div1 text-danger" *ngIf="!company?.valid && (company?.dirty ||company?.touched)">
+          Enter Company
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="form-row">
+      <div class="row">
+      <div class="col-4 form-floating mb-3 mt-2">
+        <input type="text" class="form-control  reference-input"  id="email" name="email" placeholder="email" formControlName="email"/>
+        <label for="email" class="text-secondary">Email <span class="text-danger">*</span></label>
+        <div class="div1 text-danger" *ngIf="!email?.valid && (email?.dirty ||email?.touched)">
+          Enter Valid Email Address
+        </div>
+      </div>
+      <div class="col-4 form-floating mb-3 mt-2">
+        <input type="text" class="form-control reference-input"  id="mobile" name="mobile" placeholder="Phone Number" formControlName="mobile"/>
+        <label for="mobile" class="text-secondary">Phone Number <span class="text-danger">*</span></label>
+        <div class="div1 text-danger" *ngIf="!mobile?.valid && (mobile?.dirty ||mobile?.touched)">
+          Enter Valid Phone Number
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+

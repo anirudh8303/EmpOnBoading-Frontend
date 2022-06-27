@@ -1,0 +1,40 @@
+.main-cont {
+  box-shadow: 3px 3px 5px 4px #d0d0d0;
+}
+.heading1 {
+  color: black;
+  font-weight: bold;
+  background-color: rgb(201, 199, 199);
+}
+
+.btncontrol {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-primary {
+  background-color: #44a3df;
+}
+
+.btn-outline-primary {
+  color: #44a3df;
+  border-color: #44a3df;
+}
+
+.line-left {
+  width: 3%;
+  border-color: #44a3df !important;
+}
+
+.reference-header-title {
+  width: 9%;
+  border-color: #44a3df !important;
+  color: #44a3df;
+  font-size: 90%;
+}
+
+.line-right {
+  width: 88%;
+  border-color: #44a3df !important;
+}
