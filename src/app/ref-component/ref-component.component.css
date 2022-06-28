@@ -1,6 +1,7 @@
 * {
   font-size: 14px;
 }
+
 input {
   outline: 0;
   border-width: 0 0 2px;
@@ -42,10 +43,10 @@ input[type=number]::-webkit-outer-spin-button {
 .placeholder:after {
   content: "*";
   color: red;
-} */
+} 
 .form-floating{
-  /* height: 30px; */
-  /* background-color: red; */
+  height: 30px; 
+  background-color: red;
 }
 
 .div1{
@@ -57,4 +58,4 @@ input[type=number]::-webkit-outer-spin-button {
   box-shadow: none;
   border-radius: 0;
   padding-left: 0px;
-}
+}*/
